@@ -1,5 +1,3 @@
 Hello. 
 My name is Qi Yicheng.
-I like code.
-I ilke music.
-I like Rubic's cube.
+I don't like git.
