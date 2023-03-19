@@ -1,3 +1,5 @@
+# This code aims to use a formula to calculate the number of all elements in 5 cases.
+
 # Set a loop from 1 to 5
 for n in range(1,6)
     # Create formulas using known rules
