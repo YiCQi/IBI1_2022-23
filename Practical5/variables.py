@@ -3,6 +3,7 @@ b = -118.24
 c = 116.39
 d = a - b
 e = c - a
+print( d > e ) # output:False
 
 # e > d, so Rob to Haining is further than to Los	Angeles
 
