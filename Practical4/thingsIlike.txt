@@ -1,11 +1,11 @@
-I don't like git.
-I like music
-I like cat
-I like dog
-I like coffee
-I like code
-I like Rubic's cube
-I like guitar
-I like violin
-I like computer games
-I like 10
+I don't like mosquitoes.
+I like music.
+I like cat.
+I like dog.
+I like coffee.
+I like code.
+I like Rubic's cube.
+I like guitar.
+I like violin.
+I like computer games.
+I like 10.
