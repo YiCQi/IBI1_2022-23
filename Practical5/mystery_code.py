@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer: choose 10 numbers randomly from 1 to 100, select the max number and print it
+# Answer: Choose 10 numbers randomly from 1 to 100, select the max number in these 10 numbers and print it.
 
 # Import libraries
 # randint allows drawing a random number,
