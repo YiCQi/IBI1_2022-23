@@ -2,3 +2,7 @@ It's hard to use git and github.
 I am not familiar with new command.
 But I was glad to see that my friends are struggling.
 It's fun.
+
+（After 2 weeks)
+All right... I'm back now
+I've changed my mind. Git and GitHub are actually easy to use.
