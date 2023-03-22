@@ -1,5 +1,5 @@
 # This code uses pyplot to draw a pie chart.
-# movie_genres is a dictionary whose key shows the genres
+# movie_genres is a dictionary whose key shows the genres,
 # and value shows the number of students who like the genre most.
 # movie_genres is printed.
 # You can modify the chosen genre which will also be printed.
