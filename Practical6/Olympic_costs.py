@@ -1,32 +1,47 @@
-# This code uses pyplot to draw a pie chart.
-# movie_genres is a dictionary whose key shows the genres
-# and value shows the number of students who like the genre most.
-# movie_genres is printed.
-# You can modify the chosen genre which will also be printed.
-# The pie chart will be shown in a new window.
+# This code uses pyplot to draw a bar chart.
+# Olympic_Games_costs is a dictionary contains Olympic games and their costs recent years.
+# costs is a list contains the cost of these Olympic games.
+# sorted_costs is a list which is the sorted list of costs.
+# sorted_Games will be added in sorted Olympic Games.
+# The chart will show the sorted costs and matched Olympic Games.
 
 import matplotlib.pyplot as plt
 
-# create a dictionary contains movie genres and numbers of students who like the genre most.
-movie_genres = {'Comedy':73,
-                'Action':42,
-                'Romance':38,
-                'Fantasy':28,
-                'Science-fiction':22,
-                'Horror':19,
-                'Crime':18,
-                'Documentary':12,
-                'History':8,
-                'War':7}
+# create a list which contains the cost of these Olympic games
+costs=[1,8,15,7,5,14,43,40]
+# make the list sorted
+sorted_costs = sorted(costs)
 
-# print movie genres
-print(movie_genres)
+# create a list which contains Olympic games and their costs recent years
+Olympic_Games_costs = {1:'Los Angeles 1984',
+                 8:'Seoul 1988',
+                 15:'Barcelona 1992',
+                 7:'Atlanta 1996',
+                 5:'Sydney 2000',
+                 14:'Athens 2003',
+                 43:'Beijing 2008',
+                 40:'London 2012'}
 
-# choose a genre and print the number of students who like this genre most
-chosen_genre = 'Comedy' # The variable I choose is Comedy. It can be modified.
-print(movie_genres[chosen_genre])
+# create sorted_Games
+sorted_Games = []
+for cost in sorted_costs:
+    sorted_Games.append(Olympic_Games_costs[cost])
 
-# draw the pie chart
-plt.pie(movie_genres.values(), labels=movie_genres.keys(), autopct='%1.1f%%')
-plt.title('Movie Genres')
+# show the sorted list
+print(sorted_costs)
+
+
+# create a bar chart and modify its style
+plt.figure(figsize=(10,6))
+colors = ['pink','blue','brown','green']
+plt.bar(sorted_Games,sorted_costs,color = colors)
+plt.xticks(fontsize = 8)
+
+# Create x-axis and y-axis headings
+plt.xlabel('Olympic Games', color = "green")
+plt.ylabel('costs', color = "green")
+
+# make grid
+plt.grid(True)
+
 plt.show()
