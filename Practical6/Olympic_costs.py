@@ -21,11 +21,19 @@ Olympic_Games = ['Los Angeles 1984',
                       'Beijing 2008',
                       'London 2012']
 
+# show the sorted list
 print(sorted_costs)
+
+# create a bar chart and modify its style
 plt.figure(figsize=(10,6))
 plt.bar(Olympic_Games,sorted_costs,color = 'pink')
 plt.xticks(fontsize = 8)
+
+# Create x-axis and y-axis headings
 plt.xlabel('Olympic Games', color = "green")
 plt.ylabel('costs', color = "green")
+
+# make grid
 plt.grid(True)
+
 plt.show()
