@@ -1,6 +1,6 @@
 Question: How have new cases and total cases developed over time in the UK?
 
-Result: covid.py, line 57.
+Result: covid.py, line 61.
 
 Answer:
 Until approximately 2020-03-03, there were almost no new cases in the UK.
