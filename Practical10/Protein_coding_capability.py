@@ -8,6 +8,7 @@ def calculator(dna):
     final = [codon.start() for codon in re.finditer(r'[Tt][Gg][Aa]',dna)][0]
     # calculate the distance between opening and final codons
     distance = final-opening
+    print(distance)
     # calculate the percentage of coding sequence in DNA
     percentage = distance/length
     # determine the type
