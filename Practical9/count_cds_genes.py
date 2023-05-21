@@ -1,3 +1,5 @@
+# This code aims to find all sequences ending with input stop codons and create a new file to store the results, including the number of this codon happening in one sequence.
+
 import re
 
 # input custom stop codons
