@@ -10,8 +10,11 @@ from random import randint
 # e.g. ceil(4.2)=5
 from math import ceil
 
+# Set initial progress
 progress=0
+# Processed variable
 stored_random_number=0
+# Set a loop, choose 1 max number from 10 numbers
 while progress<10:
 	progress+=1
 	n = randint(1,100)
