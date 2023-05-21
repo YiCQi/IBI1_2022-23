@@ -11,5 +11,7 @@ X = True
 Y = False
 W = X and Y
 Z = X or Y
+print( f"W is {W}")
+print( f"Z is {Z}")
 
 # W is False, Z is True
