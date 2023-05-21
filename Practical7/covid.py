@@ -1,3 +1,7 @@
+# This code aims to analyse data in full_data.csv and draw plots to visualize the results.
+# Matplotlib is the most important library used.
+# The answer to a question also includes.
+
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
