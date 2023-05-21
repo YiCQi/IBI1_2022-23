@@ -1,5 +1,6 @@
 # I am sorry for my poor code... It runs really slowly (1min).
 # But believe me... It is valid.
+# This code aims to recognize information in go_obo.xml and extract the wanted information into a new Excel file.
 from openpyxl import Workbook
 from xml.dom.minidom import parse
 import xml.dom.minidom
