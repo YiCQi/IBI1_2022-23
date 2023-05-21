@@ -1,3 +1,5 @@
+# This code aims to find all sequences ending with TGA and store the results in a new file.
+
 # input file Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa
 input_file = open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa','r')
 # output file
