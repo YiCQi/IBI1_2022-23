@@ -1,3 +1,5 @@
+# The	script contains	the	variable seq shown above and prints	out	the	correct	number of	coding sequences when	this variable	is modified.
+
 import re
 
 # input custom sequence
